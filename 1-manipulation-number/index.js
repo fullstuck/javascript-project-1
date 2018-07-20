@@ -22,3 +22,11 @@ console.log(numberA + string);
 console.log(numberB - bigNumber);
 console.log(numberC * negativeNumber);
 console.log(numberA / boolean);
+
+console.log("Level 3");
+let array = [10, 099, 0.02, -11];
+array.push("test");
+array.push(true);
+for (i = 0; i <= array.length; i++) {
+    console.log(array[i]);
+}
