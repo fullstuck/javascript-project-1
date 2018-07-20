@@ -12,3 +12,13 @@ console.log(numberA - numberC);
 console.log(numberB * numberC);
 console.log(numberA / numberC);
 console.log(numberA % numberB);
+
+console.log("Level 2");
+var string = "8";
+let bigNumber = 999999999;
+let negativeNumber = -10;
+const boolean = false;
+console.log(numberA + string);
+console.log(numberB - bigNumber);
+console.log(numberC * negativeNumber);
+console.log(numberA / boolean);
