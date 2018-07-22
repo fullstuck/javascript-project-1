@@ -35,3 +35,10 @@ console.log(substract(numberA, numberB));
 console.log(multiply(numberA, numberB));
 console.log(divide(numberA, numberB));
 console.log(modulo(numberA, numberB));
+
+console.log("Level 16");
+
+console.log(add(substract(numberA, numberB), multiply(numberA, numberB)));
+console.log(add(divide(numberA, numberB), modulo(numberA, numberB)));
+console.log(substract(add(numberA, numberB), multiply(numberA, numberB)));
+console.log(multiply(add(substract(numberA, numberB), multiply(numberA, numberB)), divide(substract(numberA, numberB), multiply(numberA, numberB))));
