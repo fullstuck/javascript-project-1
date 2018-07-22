@@ -53,3 +53,7 @@ function process(param1, param2) {
     }
 }
 process(numberC, numberA);
+
+console.log("Level 13");
+
+console.log(Math.floor((Math.random() * 100) + 1));
