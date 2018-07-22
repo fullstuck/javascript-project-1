@@ -17,14 +17,20 @@ console.log(sentenceA.toLowerCase());
 console.log(sentenceB.toLowerCase());
 
 console.log("Level 7");
-const sentence = "hello everyone";
+const sentence = "heLLo evErYoNe";
+let sentences = "";
 
-function toTitleCase(str) {
-    return str.replace(
-        /\w\S*/g,
-        function (txt) {
-            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+for (i = 0; i < sentence.length; i++) {
+    if (sentence.charAt(0) != " " && i == 0) {
+        sentences += sentence.charAt(0).toUpperCase();
+    } else if (sentence.charAt(i) == " " && i != sentence.length - 1) {
+        sentences += " ";
+        sentences += sentence.charAt(i + 1).toUpperCase();
+        if (sentence.charAt(i + 1) != " ") {
+            i++;
         }
-    );
+    } else {
+        sentences += sentence.charAt(i).toLowerCase();
+    }
 }
-console.log(toTitleCase(sentence));
+console.log(sentences);
