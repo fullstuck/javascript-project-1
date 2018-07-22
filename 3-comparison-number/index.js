@@ -42,3 +42,14 @@ if (numberC > numberA || numberC == numberA) {
 } else {
     console.log(`${numberC} is bigger than ${numberA}`);
 }
+
+console.log("Level 12");
+
+function process(param1, param2) {
+    if (param1 >= param2) {
+        console.log(`${param1} is not bigger than ${param2}`);
+    } else {
+        console.log(`${param1} is bigger than ${param2}`);
+    }
+}
+process(numberC, numberA);
