@@ -2,11 +2,11 @@ console.log("Level 14");
 
 let numberA = 10;
 let numberB = 5;
-console.log(numberA + numberB);
-console.log(numberA - numberB);
-console.log(numberA * numberB);
-console.log(numberA / numberB);
-console.log(numberA % numberB);
+console.log('Add = ', numberA + numberB);
+console.log('Substract = ', numberA - numberB);
+console.log('Multiply = ', numberA * numberB);
+console.log('Divide = ', numberA / numberB);
+console.log('Modulo = ', numberA % numberB);
 
 console.log("Level 15");
 
