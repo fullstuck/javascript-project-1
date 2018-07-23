@@ -45,15 +45,15 @@ if (numberC > numberA || numberC == numberA) {
 
 console.log("Level 12");
 
-function process(param1, param2) {
-    if (param1 >= param2) {
-        console.log(`${param1} is not bigger than ${param2}`);
+function process(number1, number2) {
+    if (number1 >= number2) {
+        console.log(`${number1} is not bigger than ${number2}`);
     } else {
-        console.log(`${param1} is bigger than ${param2}`);
+        console.log(`${number1} is bigger than ${number2}`);
     }
 }
 process(numberC, numberA);
 
 console.log("Level 13");
 
-console.log('Random Number =', Math.floor((Math.random() * 100) + 1));
+console.log('Random Number =', Math.floor((Math.random() * 1000) + 1));
