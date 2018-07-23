@@ -80,3 +80,26 @@ console.log(`Cube Area = ${cubeAreaFunc(length)}`);
 console.log(`Cube Volume = ${cubeVolumeFunc(length)}`);
 console.log(`Tube Area = ${tubeAreaFunc(phi, radius, height)}`);
 console.log(`Tube Volume = ${tubeVolumeFunc(phi, radius, height)}`);
+
+console.log("Level 19");
+
+function calculateCubeAreaFunc(squareArea) {
+    return 6 * squareArea;
+}
+
+function calculateCubeVolumeFunc(side, squareArea) {
+    return side * squareArea;
+}
+
+function calculateTubeAreaFunc(circleCircumference, height, radius) {
+    return circleCircumference * (height + radius);
+}
+
+function calculateTubeVolumeFunc(circleAreaFunc, height) {
+    return circleAreaFunc * height;
+}
+
+console.log(`Cube Area = ${calculateCubeAreaFunc(squareAreaFunc(length, length))}`);
+console.log(`Cube Volume = ${calculateCubeVolumeFunc(length, squareAreaFunc(length, length))}`);
+console.log(`Tube Area = ${calculateTubeAreaFunc(circleCircumferenceFunc(phi, radius), height, radius)}`);
+console.log(`Tube Volume = ${calculateTubeVolumeFunc(circleAreaFunc(phi, radius), height)}`);
