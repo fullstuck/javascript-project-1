@@ -10,24 +10,24 @@ console.log(`${numberA} + ${numberB} =`, numberA % numberB);
 
 console.log("Level 15");
 
-function add(param1, param2) {
-    return param1 + param2;
+function add(number1, number2) {
+    return number1 + number2;
 }
 
-function substract(param1, param2) {
-    return param1 - param2;
+function substract(number1, number2) {
+    return number1 - number2;
 }
 
-function multiply(param1, param2) {
-    return param1 * param2;
+function multiply(number1, number2) {
+    return number1 * number2;
 }
 
-function divide(param1, param2) {
-    return param1 / param2;
+function divide(number1, number2) {
+    return number1 / number2;
 }
 
-function modulo(param1, param2) {
-    return param1 % param2;
+function modulo(number1, number2) {
+    return number1 % number2;
 }
 
 console.log(`${numberA} + ${numberB} =`, add(numberA, numberB));
