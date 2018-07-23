@@ -56,4 +56,4 @@ process(numberC, numberA);
 
 console.log("Level 13");
 
-console.log(Math.floor((Math.random() * 100) + 1));
+console.log('Random Number =', Math.floor((Math.random() * 100) + 1));
